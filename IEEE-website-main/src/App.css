@@ -1,0 +1,88 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0c519c;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-width: 100vw;
+}
+
+.container {
+  position: relative;
+  min-height: fit-content;
+  margin: 2% 0%;
+}
+
+.head-wrapper {
+  min-height: 10vh;
+  margin: 4% 10%;
+  display: flex;
+  height: fit-content;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.logo {
+  position: absolute;
+  left: 7px;
+  /* margin-top: 10px; */
+  height: "15%";
+  max-height: 10vw;
+  width: auto;
+  max-width: 10vw;
+  z-index: 1000;
+}
+
+.heading {
+  margin-left: 90px;
+  position: absolute;
+  height: auto;
+  height: fit-content;
+  max-height: 8vh;
+  /* margin-left: '100%'; */
+}
+
+.ieee-logo {
+  position: absolute;
+  right: 5%;
+  height: 60px;
+  max-height: 10vh;
+  width: auto;
+  max-width: 10vw;
+  z-index: 1000;
+}
+
+.carousel-and-content {
+  position: relative;
+}
+
+.buttons {
+  margin: 10px auto;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.buttons button {
+  padding: 1% 2%; /* Adjust button padding as needed */
+  height: 100%;
+  background-color: transparent; /* Change button background color */
+  color: rgb(0, 0, 0); /* Change button text color */
+  border: none;
+  /* border-radius: 4px; */
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.buttons button:hover {
+  background-color: #2b66a4e6; /* Change button background color on hover */
+  color: white;
+  padding: 0.5% 1%;
+}
